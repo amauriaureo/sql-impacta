@@ -1,0 +1,21 @@
+SQL IMPACTA
+
+ # AULA01
+
+Introdução.
+
+
+*** Competências ***
+
+
+- Arquitetar um banco de dados capaz de atender às necessidades
+especificadas.
+
+- Desenvolver rotinas de definição, manipulação e recuperação de dados.
+- Garantir a integridade dos dados armazenados utilizando restrições
+estruturais e funcionais.
+
+- Criar relatórios para análise e consolidação das informações
+armazenadas.
+
+
