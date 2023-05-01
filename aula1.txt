@@ -19,3 +19,19 @@ estruturais e funcionais.
 armazenadas.
 
 
+
+
+*** Habilidades ***
+
+- Conhecimento das regras de mapeamento dos modelos lógico/conceitual
+para o físico.
+
+- Conhecimento da sublinguagem SQL de definição de dados (DDL):
+Estruturas e regras de armazenamento.
+
+- —“Conhecimento da sublinguagem SQL de manipulação de dados (DML):
+Manipulação de dados.
+
+- Conhecimento da sublinguagem SQL de pesquisa de dados
+(DQL): Consulta de dados.
+
