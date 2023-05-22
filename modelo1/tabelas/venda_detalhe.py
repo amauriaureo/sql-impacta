@@ -9,7 +9,7 @@ create table vendaDetalhe (
     vendaId INTENGER,
     quantidade INTENGER,
     valor INTENGER,
-    produto.Id
+    produtoId
         FOREIGN KEY (vendaId) REFERENCES venda(vendaId)
         FOREIGN KEY (produtoId) REFERENCES produto(id)
 )
