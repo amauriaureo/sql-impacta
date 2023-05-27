@@ -5,12 +5,12 @@ cursor = connection.cursor()
 
 sql = '''
 create table movimentoEstoque (
-    id INTENGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
     estoqueProdutoId INTENGER,
-    quantidade INTENGER,
+    quantidade INTEGER,
     data DATETIME,
-    tipoMovimentoId INTENGER,
-    vendaDetalheId INTENGER,
+    tipoMovimentoId INTEGER,
+    vendaDetalheId INTEGER,
         FOREIGN KEY (tipoMovimentoId) REFERENCES tipoMovimento(id)
         FOREIGN KEY (vendaDetalheId) REFERENCES vendaDetalhe(id)
 )
