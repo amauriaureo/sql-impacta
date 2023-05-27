@@ -5,7 +5,7 @@ cursor = connection.cursor()
 
 sql = '''
 create table Produto (
-    id INTENGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
     nome VARCHAR(20)
 )
 '''
