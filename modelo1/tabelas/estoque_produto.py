@@ -5,7 +5,7 @@ cursor = connection.cursor()
 
 sql = '''
 create table EstoqueProduto (
-    id INTENGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
     produtoId VARCHAR(20),
         FOREIGN KEY (produtoId) REFERENCES produto(id)
 )
