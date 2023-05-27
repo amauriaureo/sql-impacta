@@ -5,7 +5,7 @@ cursor = connection.cursor()
 
 sql = '''
 create table tipoMovimento (
-    id INTENGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
     descricao VARCHAR(20)
 )
 '''
