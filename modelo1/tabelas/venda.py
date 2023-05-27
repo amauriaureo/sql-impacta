@@ -5,10 +5,10 @@ cursor = connection.cursor()
 
 sql = '''
 create table venda (
-    vendaId INTENGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    vendaId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
     data DATETIME,
-    valorTotal INTENGER,
-    desconto INTENGER,
+    valorTotal INTEGER,
+    desconto INTEGER,
 )
 '''
 
