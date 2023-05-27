@@ -5,10 +5,10 @@ cursor = connection.cursor()
 
 sql = '''
 create table vendaDetalhe (
-    id INTENGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-    vendaId INTENGER,
-    quantidade INTENGER,
-    valor INTENGER,
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    vendaId INTEGER,
+    quantidade INTEGER,
+    valor INTEGER,
     produtoId
         FOREIGN KEY (vendaId) REFERENCES venda(vendaId)
         FOREIGN KEY (produtoId) REFERENCES produto(id)
